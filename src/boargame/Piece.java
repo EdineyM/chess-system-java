@@ -1,6 +1,6 @@
 package boargame;
 
-public abstract class Piece {
+public class Piece {
     protected Position position;
     private  Board  board;
 
@@ -12,7 +12,9 @@ public abstract class Piece {
         return board;
     }
 
-    public abstract Piece[][] possibleMoves();
+    public Piece[][] possibleMoves() {
+        return null;
+    }
 
     public boolean possibleMove(Position position) {
         return true;
