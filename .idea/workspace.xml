@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="Little improvement in board printing">
+    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="Moving Pieces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boargame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boargame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
       <module name="chess-system" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,7 +131,7 @@
       <updated>1705158170246</updated>
       <workItem from="1705158171274" duration="658000" />
       <workItem from="1705324990130" duration="10423000" />
-      <workItem from="1705355180518" duration="1277000" />
+      <workItem from="1705355180518" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="starting the project base">
       <option name="closed" value="true" />
@@ -231,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705348122116</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Moving Pieces">
+      <option name="closed" value="true" />
+      <created>1705356494608</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705356494608</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +264,8 @@
     <MESSAGE value="CheesException and ChessPosition" />
     <MESSAGE value="ChessException and ChessPosition" />
     <MESSAGE value="Little improvement in board printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little improvement in board printing" />
+    <MESSAGE value="Moving Pieces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving Pieces" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
