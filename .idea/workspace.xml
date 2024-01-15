@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="starting the project base">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="ChessException and ChessPosition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ediney Mendonça &lt;edineyjr1@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -33,6 +40,29 @@
 }]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1705327183" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1705327182" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -59,14 +89,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705158170246</updated>
       <workItem from="1705158171274" duration="658000" />
-      <workItem from="1705324990130" duration="1632000" />
+      <workItem from="1705324990130" duration="9567000" />
     </task>
     <task id="LOCAL-00001" summary="starting the project base">
       <option name="closed" value="true" />
@@ -110,7 +140,79 @@
       <option name="project" value="LOCAL" />
       <updated>1705325520730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="starting the project base">
+      <option name="closed" value="true" />
+      <created>1705326817641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705326817641</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First class: Position">
+      <option name="closed" value="true" />
+      <created>1705327743984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705327743984</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Start to implement Board and Piece">
+      <option name="closed" value="true" />
+      <created>1705328334279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705328334279</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Chess layer and printing the Board">
+      <option name="closed" value="true" />
+      <created>1705329912177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705329912177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Chess layer and printing the Board">
+      <option name="closed" value="true" />
+      <created>1705329924104</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705329924104</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Placing pieces on the Board.java">
+      <option name="closed" value="true" />
+      <created>1705345133293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705345133293</updated>
+    </task>
+    <task id="LOCAL-00008" summary="BoardException and denfensive programming">
+      <option name="closed" value="true" />
+      <created>1705346117773</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705346117773</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CheesException and ChessPosition">
+      <option name="closed" value="true" />
+      <created>1705347225924</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705347225924</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ChessException and ChessPosition">
+      <option name="closed" value="true" />
+      <created>1705347278364</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705347278364</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +231,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting the project base" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting the project base" />
+    <MESSAGE value="First class: Position" />
+    <MESSAGE value="Start to implement Board and Piece" />
+    <MESSAGE value="Chess layer and printing the Board" />
+    <MESSAGE value="Placing pieces on the Board.java" />
+    <MESSAGE value="BoardException and denfensive programming" />
+    <MESSAGE value="CheesException and ChessPosition" />
+    <MESSAGE value="ChessException and ChessPosition" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChessException and ChessPosition" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
