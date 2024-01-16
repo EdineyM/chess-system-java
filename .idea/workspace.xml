@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="Checkmate logic">
+    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="Piece move count">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <workItem from="1705158171274" duration="658000" />
       <workItem from="1705324990130" duration="10423000" />
       <workItem from="1705355180518" duration="2309000" />
-      <workItem from="1705411503155" duration="14369000" />
+      <workItem from="1705411503155" duration="15741000" />
     </task>
     <task id="LOCAL-00001" summary="starting the project base">
       <option name="closed" value="true" />
@@ -325,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705439024582</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Piece move count">
+      <option name="closed" value="true" />
+      <created>1705439313137</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1705439313137</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +370,8 @@
     <MESSAGE value="Handling captured pieces" />
     <MESSAGE value="Check logic" />
     <MESSAGE value="Checkmate logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkmate logic" />
+    <MESSAGE value="Piece move count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Piece move count" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
