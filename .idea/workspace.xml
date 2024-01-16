@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="Printing possible moves">
+    <list default="true" id="bde55372-1e5c-42c9-8ce7-08dcc67478a8" name="Changes" comment="Handling captured pieces">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +139,7 @@
       <workItem from="1705158171274" duration="658000" />
       <workItem from="1705324990130" duration="10423000" />
       <workItem from="1705355180518" duration="2309000" />
-      <workItem from="1705411503155" duration="5812000" />
+      <workItem from="1705411503155" duration="11589000" />
     </task>
     <task id="LOCAL-00001" summary="starting the project base">
       <option name="closed" value="true" />
@@ -276,7 +277,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705416529630</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implementing possible moves of King">
+      <option name="closed" value="true" />
+      <created>1705417354490</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705417354490</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Switching player each turn">
+      <option name="closed" value="true" />
+      <created>1705429317179</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705429317179</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Handling captured pieces">
+      <option name="closed" value="true" />
+      <created>1705431664887</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705431664887</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +333,10 @@
     <MESSAGE value="Possible moves of a Piece" />
     <MESSAGE value="Implementing possible moves of Rook" />
     <MESSAGE value="Printing possible moves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printing possible moves" />
+    <MESSAGE value="Implementing possible moves of King" />
+    <MESSAGE value="Switching player each turn" />
+    <MESSAGE value="Handling captured pieces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling captured pieces" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
